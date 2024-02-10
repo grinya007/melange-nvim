@@ -39,8 +39,8 @@ for name, attrs in pairs {
   VertSplit = { fg = a.ui },
   WinSeparator = { fg = a.ui },
 
-  LineNr = { fg = a.ui },
-  CursorLineNr = { fg = c.yellow },
+  LineNr = { fg = a.ui, bg = a.bg2 },
+  CursorLineNr = { fg = c.yellow, bg = a.float },
 
   Folded = { fg = a.com, bg = d.cyan },
   FoldColumn = 'LineNr',
