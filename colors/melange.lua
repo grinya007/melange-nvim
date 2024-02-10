@@ -69,7 +69,7 @@ for name, attrs in pairs {
 
   Conceal = { fg = a.com },
   Whitespace = { fg = a.ui },
-  -- EndOfBuffer = {},
+  EndOfBuffer = { fg = a.ui },
   NonText = 'Whitespace',
   SpecialKey = 'Whitespace',
 
